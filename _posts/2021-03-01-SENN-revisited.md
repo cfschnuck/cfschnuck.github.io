@@ -23,7 +23,7 @@ Conversely, an intrinsically interpretable approach aims to make a model interpr
 
 In this work, we use an explanation generating architecture called [Self-Explaining Neural Network *SENN* from David Alvarez-Melis and Tommi Jaakkola](https://arxiv.org/abs/1806.07538) [[1]](#1).
 
-A *SENN* consists of two components: a conceptizer $h(x)$ and a parametrizer $\theta(x)$. The conceptizer aims to encode input data as meaningful concepts while the parametrizer learns explanations which are then applied to concepts to obtain predictions.
+A *SENN* consists of two components: a conceptizer $$ h(x) $$ and a parametrizer $$ \theta(x) $$. The conceptizer aims to encode input data as meaningful concepts while the parametrizer learns explanations which are then applied to concepts to obtain predictions.
 The design of both components is crucial for attaining interpretability and the authors propose different requirements on each of them.
 The parametrizer should be locally interpretable. Further, three desiderata are stipulated for the conceptizer: 
 
