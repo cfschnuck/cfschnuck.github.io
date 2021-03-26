@@ -281,9 +281,7 @@ defaults:
       related: false
       show_date: true
       toc: false
-      toc_sticky: false
-      subscribe_email: true
-      #classes: wide
+      classes: wide
       author_profile: true
 
 # _pages
