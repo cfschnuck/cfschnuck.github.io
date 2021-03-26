@@ -282,7 +282,6 @@ defaults:
       show_date: true
       toc: false
       toc_sticky: false
-      type: grid
       #classes: wide
       author_profile: true
 
