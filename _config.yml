@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Edward Guenther"
-  avatar           : #"/assets/images/profile_pic.jpg"
+  avatar           : "/assets/images/profile_pic.jpg"
   bio              : "MSc Statistics at ETH Zurich"
   location         : "Zurich"
   links:
