@@ -148,7 +148,7 @@ While a *SENN* as originally proposed in [[1]](#1) does not necessarily fulfill 
 For more details on our project please visit our [github page](https://github.com/EdwardGuen/SENN-revisited).
 
 ## Authors
-[Edward Günther](https://edwardguen.github.io/), [Carina Schnuck](..), Massimo Höhn and 
+[Edward Günther](https://edwardguen.github.io/), Massimo Höhn, and [Carina Schnuck](..)
 
 ## References
 <a id="1">[1]</a>
