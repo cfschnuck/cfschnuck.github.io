@@ -82,7 +82,7 @@ $$
 ## Experiments
 In the [previous blog post](../SENN) we compared a *SENN* to a novel architecture, called *VaeSENN*, that uses a variational approach in order to learn label relevant and non-relevant features. There, we focused on grounding and disentanglement of learned concepts in particular. Here, we will instead concentrate on robustness of interpretability.
 
-For hyperparameter settings and other training configuration details see the implementation on our [github page](https://github.com/EdwardGuen/SENN-revisited).
+For hyperparameter settings and other training configuration details see the implementation on our [github page](https://github.com/cfschnuck/SENN-revisited).
 
 ### Accuracy
 {% capture newpath %}{{ page.img_dir }}{{ "acc_mnist.png" }}{% endcapture %} 
@@ -145,7 +145,7 @@ As shown in Figure 3 for a *SENN* we observe that in-class distance is smaller t
 ## Discussion
 While a *SENN* as originally proposed in [[1]](#1) does not necessarily fulfill all desiderata stated for robust interpretability (see [last post](../SENN)) it gives rise to a ”plug-in” principle that could be used to build custom models with enhanced interpretability. The separation of conceptizer and parametrizer within a *SENN* allows to plug in different architectures and pose different interpretability requirements on each of them. In this post and the last one, we showed two possible examples for such a ”plug-in” to enhance interpretability where including a variational element seemed to be especially advantageous. There is still much room for improving the interpretability of a *SENN* and we are keen to see where this field of research is heading.
 
-For more details on our project please visit our [github page](https://github.com/EdwardGuen/SENN-revisited).
+For more details on our project please visit our [github page](https://github.com/cfschnuck/SENN-revisited).
 
 ## Authors
 [Edward Günther](https://edwardguen.github.io/), Massimo Höhn, and [Carina Schnuck](..)
